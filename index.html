@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indiana - Tours n' Adventures</title>
+    <link rel="shortcut icon" href="./media/images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+<body>
+    
+    <!-- header area -->
+    <header id="header" class="header">
+        <div class="container header_container">
+            <div id="logo" class="logo">
+                <p>Indiana</p> 
+                <i class="fa-solid fa-bars mobile" id="navicon" onclick="toggleNav()"></i>
+            </div>
+            <nav class="nav">
+                <ul id="nav">
+                    <li>Home</li>
+                    <li>Places</li>
+                    <li>Packages</li>
+                    <li>Destinations</li>
+                    <li>Gallery</li>
+                    <li>Testimonials</li>
+                    <li>Blog</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- banner area -->
+    <section class="banner">
+        <div class="banner_content">
+            <div class="search">
+                <input class="search_input" type="search" placeholder="Search places, packages and many more">
+                <p class="search_icon"><i class="fas fa-search "></i></p>
+            </div>
+        </div>
+    </section>
+
+    <!-- places section -->
+    <section class="places">
+        <h1 class="section_title">Featured Places</h1>
+        <div class="container places_container">
+
+            <div class="place">
+                <div class="place_detail">
+                    <h1 class="card_title">Beautiful Beaches</h1>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
+
+            <div class="place">
+                <div class="place_detail">
+                    <h1 class="card_title">Sunset Sight</h1>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
+
+            <div class="place">
+                <div class="place_detail">
+                    <h1 class="card_title">Hills & Mountains</h1>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
+
+            <div class="place">
+                <div class="place_detail">
+                    <h1 class="card_title">Jungle Tour</h1>
+                    <button class="card_btn">View More</button>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- Packages section -->
+    <section class="packages">
+        <h1 class="section_title">Top Rated Packages</h1>
+        <div class="container packages_container">
+            
+            <div class="package">
+                <div class="package_img">
+                    <img src="./media/images/package_1.jpeg" alt="">
+                </div>
+                <div class="package_detail">
+                <p class="package_title">Rajasthan Tour Package</p>
+                <p class="price">&#8377; 13,999</p>
+
+                <div class="rating">
+                    <div class="gray_star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="yellow_star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                    (3.6)
+                </div>
+            </div>
+            <div class="package">
+                <div class="package_img">
+                    <img src="./media/images/package_2.jpeg" alt="">
+                </div>
+                <div class="package_detail">
+                    <p class="package_title">Leh Ladakh Tour Package</p>
+                    <p class="price">&#8377; 9,999</p>
+            
+                    <div class="rating">
+                        <div class="gray_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="yellow_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    (4.0)
+                </div>
+            </div>
+            <div class="package">
+                <div class="package_img">
+                    <img src="./media/images/package_3.jpeg" alt="">
+                </div>
+                <div class="package_detail">
+                    <p class="package_title">Kerala Tour Package</p>
+                    <p class="price">&#8377; 10,999</p>
+            
+                    <div class="rating">
+                        <div class="gray_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="yellow_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    (4.5)
+                </div>
+            </div>
+            <div class="package">
+                <div class="package_img">
+                    <img src="./media/images/package_4.jpeg" alt="">
+                </div>
+                <div class="package_detail">
+                    <p class="package_title">Goa Tour Package</p>
+                    <p class="price">&#8377; 7,999</p>
+            
+                    <div class="rating">
+                        <div class="gray_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <div class="yellow_star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                    </div>
+                    (3.8)
+                </div>
+            </div>
+        <div class="package">
+            <div class="package_img">
+                <img src="./media/images/package_5.jpeg" alt="">
+            </div>
+            <div class="package_detail">
+                <p class="package_title">Kashmir Tour Package</p>
+                <p class="price">&#8377; 15,999</p>
+        
+                <div class="rating">
+                    <div class="gray_star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="yellow_star">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+                (4.4)
+            </div>
+        </div>
+        </div>
+    </section>
+
+    <!-- destinations section -->
+    <section class="destinations">
+        <div class="destinations_container">
+            <h1 class="section_title">Destinations</h1>
+           
+           <div class="destinations_parent">
+                <div class="left">
+                    <div class="left_title">
+                        Stargazing
+                    </div>
+                </div>
+
+                <div class="right">
+                    <div class="right_top">
+                        <div class="right_top_title">
+                            Snowfall
+                        </div>
+                    </div>
+                    <div class="right_bottom">
+                        <div class="right_bottom_title">
+                            Swimming
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- gallery section -->
+    <section class="gallery">
+        <h1 class="section_title">Gallery</h1>
+        <div class="gallery_container">
+        
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="gall">
+                <div class="overlay">
+                    <div class="overlay_content">
+                        <h3>Lorem</h3>
+                        <button>View</button>
+                    </div>
+                </div>
+        
+                <div class="overlay2">
+                    <div class="overlay2_content">
+                        <h3>Ipsum</h3>
+                        <button>More</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials section -->
+    <section class="testimonials">
+        <h1 class="section_title">Testimonials</h1>
+        <div class="testimonials_container">
+            
+            <div class="slider">
+            
+                <div class="slider_container">
+                    <div class="slider_child">
+                        <div class="testimonial">
+                        
+                            <div class="user_profile">
+                                <img src="./media/images/profile_2.jpg" alt="">
+                            </div>
+                            <div class="user_content">
+                                <h3>Steve Haullen</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis consequatur illo dolor alias.
+                                    Hic minima aliquid corrupti, laboriosam facere delectus perspiciatis tenetur numquam libero neque quis iste
+                                    odio quidem!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae odit eum asperiores? Natus voluptatum
+                                    quae eveniet reprehenderit, ratione dolore eaque commodi numquam sunt tempora accusantium aperiam quod, ab
+                                    at?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam quasi, adipisci atque quo
+                                    suscipit dolor tempora corporis facilis iure nisi maxime? Obcaecati, labore odio numquam natus illum aperiam
+                                    itaque!
+                                </p>
+                                <div class="user_snaps">
+                                    <img src="./media/images/snap_1.jpeg" alt="">
+                                    <img src="./media/images/snap_2.jpeg" alt="">
+                                    <img src="./media/images/snap_3.jpeg" alt="">
+                                    <img src="./media/images/snap_4.jpeg" alt="">
+                                    <img src="./media/images/snap_5.jpeg" alt="">
+                                    <img src="./media/images/snap_6.jpeg" alt="">
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="slider_child">
+                        <div class="testimonial">
+                        
+                            <div class="user_profile">
+                                <img src="https://images.pexels.com/photos/1906157/pexels-photo-1906157.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                            </div>
+                            <div class="user_content">
+                                <h3>Henry Raid</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis consequatur illo dolor alias.
+                                    Hic minima aliquid corrupti, laboriosam facere delectus perspiciatis tenetur numquam libero neque quis iste
+                                    odio quidem!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae odit eum asperiores? Natus voluptatum
+                                    quae eveniet reprehenderit, ratione dolore eaque commodi numquam sunt tempora accusantium aperiam quod, ab
+                                    at?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam quasi, adipisci atque quo
+                                    suscipit dolor tempora corporis facilis iure nisi maxime? Obcaecati, labore odio numquam natus illum aperiam
+                                    itaque!
+                                </p>
+                                <div class="user_snaps">
+                                    <img src="./media/images/snap_1.jpeg" alt="">
+                                    <img src="./media/images/snap_2.jpeg" alt="">
+                                    <img src="./media/images/snap_3.jpeg" alt="">
+                                    <img src="./media/images/snap_4.jpeg" alt="">
+                                    <img src="./media/images/snap_5.jpeg" alt="">
+                                    <img src="./media/images/snap_6.jpeg" alt="">
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="slider_child">
+                    <div class="testimonial">
+                    
+                        <div class="user_profile">
+                            <img src="https://images.pexels.com/photos/3764119/pexels-photo-3764119.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                        </div>
+                        <div class="user_content">
+                            <h3>Millie Brown</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis consequatur illo dolor alias.
+                                Hic minima aliquid corrupti, laboriosam facere delectus perspiciatis tenetur numquam libero neque quis iste
+                                odio quidem!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae odit eum asperiores? Natus voluptatum
+                                quae eveniet reprehenderit, ratione dolore eaque commodi numquam sunt tempora accusantium aperiam quod, ab
+                                at?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam quasi, adipisci atque quo
+                                suscipit dolor tempora corporis facilis iure nisi maxime? Obcaecati, labore odio numquam natus illum aperiam
+                                itaque!
+                            </p>
+                            <div class="user_snaps">
+                                <img src="./media/images/snap_1.jpeg" alt="">
+                                <img src="./media/images/snap_2.jpeg" alt="">
+                                <img src="./media/images/snap_3.jpeg" alt="">
+                                <img src="./media/images/snap_4.jpeg" alt="">
+                                <img src="./media/images/snap_5.jpeg" alt="">
+                                <img src="./media/images/snap_6.jpeg" alt="">
+                            </div>
+                        </div>
+                    
+                    </div>
+                    </div>
+                    <div class="slider_child">
+                        <div class="testimonial">
+                        
+                            <div class="user_profile">
+                                <img src="https://images.pexels.com/photos/2773977/pexels-photo-2773977.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt="">
+                            </div>
+                            <div class="user_content">
+                                <h3>Melissa Benoist</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis consequatur illo dolor alias.
+                                    Hic minima aliquid corrupti, laboriosam facere delectus perspiciatis tenetur numquam libero neque quis iste
+                                    odio quidem!
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae odit eum asperiores? Natus voluptatum
+                                    quae eveniet reprehenderit, ratione dolore eaque commodi numquam sunt tempora accusantium aperiam quod, ab
+                                    at?
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam quasi, adipisci atque quo
+                                    suscipit dolor tempora corporis facilis iure nisi maxime? Obcaecati, labore odio numquam natus illum aperiam
+                                    itaque!
+                                </p>
+                                <div class="user_snaps">
+                                    <img src="./media/images/snap_1.jpeg" alt="">
+                                    <img src="./media/images/snap_2.jpeg" alt="">
+                                    <img src="./media/images/snap_3.jpeg" alt="">
+                                    <img src="./media/images/snap_4.jpeg" alt="">
+                                    <img src="./media/images/snap_5.jpeg" alt="">
+                                    <img src="./media/images/snap_6.jpeg" alt="">
+                                </div>
+                            </div>
+                        
+                        </div>
+                    </div>
+                    <div class="slider_child">
+                    <div class="testimonial">
+                    
+                        <div class="user_profile">
+                            <img src="./media/images/profile_2.jpg" alt="">
+                        </div>
+                        <div class="user_content">
+                            <h3>Steve Haullen</h3>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis consequatur illo dolor alias.
+                                Hic minima aliquid corrupti, laboriosam facere delectus perspiciatis tenetur numquam libero neque quis iste
+                                odio quidem!
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae odit eum asperiores? Natus voluptatum
+                                quae eveniet reprehenderit, ratione dolore eaque commodi numquam sunt tempora accusantium aperiam quod, ab
+                                at?
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam quasi, adipisci atque quo
+                                suscipit dolor tempora corporis facilis iure nisi maxime? Obcaecati, labore odio numquam natus illum aperiam
+                                itaque!
+                            </p>
+                            <div class="user_snaps">
+                                <img src="./media/images/snap_1.jpeg" alt="">
+                                <img src="./media/images/snap_2.jpeg" alt="">
+                                <img src="./media/images/snap_3.jpeg" alt="">
+                                <img src="./media/images/snap_4.jpeg" alt="">
+                                <img src="./media/images/snap_5.jpeg" alt="">
+                                <img src="./media/images/snap_6.jpeg" alt="">
+                            </div>
+                        </div>
+                    
+                    </div>
+                    </div>
+                </div>
+            
+            </div>
+
+        </div>
+    </section>
+
+    <!-- blogs section -->
+    <section class="blogs">
+        <h1 class="section_title">Recent Blogs</h1>
+        <div class="blogs_container">
+
+            <div class="blog"> 
+                <div class="blog_img">
+                    <img class="blog_image" src="./media/images/blog_1.jpeg" alt="">
+                </div> 
+                <div class="blog_details">
+                    <h2>Beach Addiction</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse temporibus repellendus sed nam consectetur dolorem.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="blog">
+                <div class="blog_img">
+                    <img class="blog_image" src="./media/images/blog_2.jpeg" alt="">
+                </div>
+                <div class="blog_details">
+                    <h2>Thrilling Adventures</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse temporibus repellendus sed nam consectetur
+                        dolorem.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="blog">
+                <div class="blog_img">
+                    <img class="blog_image" src="./media/images/blog_3.jpeg" alt="">
+                </div>
+                <div class="blog_details">
+                    <h2>Mountain Mazes</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse temporibus repellendus sed nam consectetur
+                        dolorem.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+
+            <div class="blog">
+                <div class="blog_img">
+                    <img class="blog_image" src="./media/images/blog_4.jpeg" alt="">
+                </div>
+                <div class="blog_details">
+                    <h2>Bonfire Nights</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse temporibus repellendus sed nam consectetur
+                        dolorem.</p>
+                    <button>Read More</button>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- newsletter section -->
+    <section class="newsletter"> 
+        <div class="newsletter_container">
+            <div class="newsletter_content">
+                <h1>Subscribe to our Newsletter</h1>
+                <p>Daily Updates . Offers . New Destinations</p>
+            </div>
+            <div class="subscribe">
+                <input type="email" placeholder="Email address">
+                <button>Subscribe</button>
+            </div>
+        </div>
+    </section>
+
+  <!-- Footer section -->
+  <section class="footer">
+      <div class="footer_container">
+
+          <div class="quick_links">
+              <h4>Quick Links</h4>
+              <ul>
+                  <li>Home</li>
+                  <li>Places</li>
+                  <li>Packages</li>
+                  <li>Destinations</li>
+                  <li>Gallery</li>
+                  <li>Testimonials</li>
+                  <li>Blogs</li>
+              </ul>
+          </div>
+
+        <div class="quick_links">
+            <h4>Our Destinations</h4>
+            <ul>
+                <li>Goa</li>
+                <li>Amritsar</li>
+                <li>Rajasthan</li>
+                <li>Meghalaya</li>
+                <li>Kashmir</li>
+                <li>Ladakh</li>
+                <li>Kerala</li>
+                <li>Chattisgarh</li>
+            </ul>
+        </div>
+
+        <div class="quick_links">
+            <h4>Contact Info</h4>
+            <ul>
+                <li>+91 4978646489</li>
+                <li>+91 6944684684</li>
+                <li>12th-A, Jenkin Street, Mumbai</li>    
+            </ul>
+        </div>
+
+        <div class="social_media_links">
+            <div class="links">
+                <i class="fab fa-facebook"></i>
+                <i class="fab fa-instagram"></i>
+            </div>
+            <div class="links">
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-youtube"></i>
+            </div>
+        </div>
+
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d93952.28242535928!2d77.67918954337543!3d28.942220604263056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390c64c01a24627b%3A0xc7d6d3496f5e519a!2sKavery%20Holidays%20Pvt.%20Ltd.!5e0!3m2!1sen!2sin!4v1644571462389!5m2!1sen!2sin"
+                width="100%" height="100%" style="border:0;"></iframe>
+        </div>
+     
+      </div>
+  </section>
+    
+
+  <script>
+      
+      window.onscroll = () => {
+          if(window.pageYOffset >= 200){
+            document.getElementById("header").style.backgroundColor = "white";
+            document.getElementById("header").style.padding = "5px 0px";
+            document.getElementById("header").style.boxShadow = "0px 0px 8px gray";
+            document.getElementById("logo").style.color = "black";
+            document.getElementById("nav").style.color = "black";  
+        }else {
+            document.getElementById("header").style.backgroundColor = "transparent";
+            document.getElementById("header").style.padding = "10px 0px";
+            document.getElementById("header").style.boxShadow = "none";
+            document.getElementById("logo").style.color = "white";
+            document.getElementById("nav").style.color = "white";  
+
+        }
+      }
+
+      let navStatus = false;
+
+      function toggleNav(){
+          if (navStatus === false) {
+            document.getElementById("nav").style.height = "auto";
+            document.getElementById("nav").style.padding = "10px 0px";
+            document.getElementById("navicon").classList.remove("fa-bars");
+            document.getElementById("navicon").classList.add("fa-xmark");
+            navStatus = true;
+          } else {
+            document.getElementById("nav").style.height = "0px";
+            document.getElementById("nav").style.padding = "0px";
+            document.getElementById("navicon").classList.remove("fa-xmark");
+            document.getElementById("navicon").classList.add("fa-bars");
+            navStatus = false;
+          }
+      }
+      
+
+  </script>
+</body>
+</html>

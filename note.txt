@@ -1,0 +1,22 @@
+<div class="testimonial">
+
+               <div class="user_profile">
+                    <img src="./media/images/profile_2.jpg" alt="">
+               </div>
+               <div class="user_content">
+                    <h3>Steve Haullen</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates veritatis consequatur illo dolor alias. Hic minima aliquid corrupti, laboriosam facere delectus perspiciatis tenetur numquam libero neque quis iste odio quidem!
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Enim vitae odit eum asperiores? Natus voluptatum quae eveniet reprehenderit, ratione dolore eaque commodi numquam sunt tempora accusantium aperiam quod, ab at?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio quisquam quasi, adipisci atque quo suscipit dolor tempora corporis facilis iure nisi maxime? Obcaecati, labore odio numquam natus illum aperiam itaque!
+                    </p>
+                    <div class="user_snaps">
+                        <img src="./media/images/snap_1.jpeg" alt="">
+                        <img src="./media/images/snap_2.jpeg" alt="">
+                        <img src="./media/images/snap_3.jpeg" alt="">
+                        <img src="./media/images/snap_4.jpeg" alt="">
+                        <img src="./media/images/snap_5.jpeg" alt="">
+                        <img src="./media/images/snap_6.jpeg" alt="">
+                       </div>
+               </div>
+                
+            </div>
